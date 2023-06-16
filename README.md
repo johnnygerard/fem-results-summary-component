@@ -13,8 +13,7 @@ This is my solution to the [Results summary component challenge](https://www.fro
 
 ## Links
  - [Website](https://fem-results-summary-component-jgerard.vercel.app) hosted with [Vercel](https://vercel.com/)
- - Images served from [ImageKit](https://imagekit.io/) CDN
- <!-- - [Solution]() -->
+ - [Solution](https://www.frontendmentor.io/solutions/results-summary-component-Ke1u3OJ9ab)
 
 ## Screenshots
 ### Desktop
