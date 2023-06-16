@@ -1,11 +1,5 @@
 @mixin mobile {
-  @media (max-width: 767px) {
-    @content;
-  }
-}
-
-@mixin tablet {
-  @media (min-width: 768px) and (max-width: 1439px) {
+  @media (max-width: 1439px) {
     @content;
   }
 }
@@ -19,7 +13,9 @@
 $white95: rgba(255, 255, 255, 0.95);
 
 $palette: (
+  'white': #FFF,
   'white-gradient': linear-gradient($white95, $white95),
   'red': #FF5555,
   'Dark Navy': #303B59,
+  'Light Blue': #CAC9FF,
 );
