@@ -1,0 +1,46 @@
+@use 'index' as *;
+
+:host {
+  display: flex;
+  align-items: center;
+  background: map-get($palette, 'white-gradient'), map-get($palette, 'red');
+  border-radius: 12px;
+  padding: 16rem;
+  width: 100%;
+
+  @include desktop {
+    width: 288rem;
+  }
+}
+
+.category {
+  margin-left: 12rem;
+
+  // Typography
+  font-family: Hanken Grotesk;
+  font-weight: 500;
+  font-size: 16rem;
+  color: map-get($palette, 'red');
+
+  @include desktop {
+    font-size: 18rem;
+  }
+}
+
+.score {
+  margin-left: auto;
+
+  // Typography
+  font-family: Hanken Grotesk;
+  font-weight: 700;
+  font-size: 16rem;
+  color: map-get($palette, 'Dark Navy');
+
+  @include desktop {
+    font-size: 18rem;
+  }
+
+  .denominator {
+    opacity: 0.5;
+  }
+}
