@@ -1,7 +1,7 @@
 # Frontend Mentor | Results summary component
 This is my solution to the [Results summary component challenge](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV) from [Frontend Mentor](https://www.frontendmentor.io/).
 
-[![project status](https://img.shields.io/badge/status-work%20in%20progress-red?style=for-the-badge)](https://fem-results-summary-component-jgerard.vercel.app)
+[![project status](https://img.shields.io/badge/status-solution%20published-success?style=for-the-badge)](https://fem-results-summary-component-jgerard.vercel.app)
 
 ## Tech Stack
  - Angular
@@ -16,13 +16,11 @@ This is my solution to the [Results summary component challenge](https://www.fro
  - Images served from [ImageKit](https://imagekit.io/) CDN
  <!-- - [Solution]() -->
 
-<!-- ## Scrolling screenshots
+## Screenshots
 ### Desktop
-![desktop scrolling screenshot](screenshots/screenshot-desktop.webp)
-### Tablet
-![tablet scrolling screenshot](screenshots/screenshot-tablet.webp)
+![desktop screenshot](screenshots/desktop.webp)
 ### Mobile
-![mobile scrolling screenshot](screenshots/screenshot-mobile.webp) -->
+![mobile screenshot](screenshots/mobile.webp)
 
 ## About Frontend Mentor
 [Frontend Mentor](https://www.frontendmentor.io/) challenges help you improve your coding skills by building realistic projects.
