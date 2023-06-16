@@ -3,10 +3,12 @@
 :host {
   display: flex;
   margin: auto;
+  width: 100%;
   min-width: 280px;
 
   @include mobile {
     flex-direction: column;
+    max-width: 375px;
   }
 
   @include desktop {
