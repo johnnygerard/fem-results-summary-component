@@ -1,4 +1,7 @@
-<ng-content />
+<app-flash-svg *ngIf="appCategory === 'Reaction'" />
+<app-brain-svg *ngIf="appCategory === 'Memory'" />
+<app-chat-svg *ngIf="appCategory === 'Verbal'" />
+<app-eye-svg *ngIf="appCategory === 'Visual'" />
 <span class="category">{{ appCategory }}</span>
 <span class="score">
   {{ appScore }}

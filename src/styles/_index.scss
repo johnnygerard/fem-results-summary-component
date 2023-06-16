@@ -14,8 +14,12 @@ $white95: rgba(255, 255, 255, 0.95);
 
 $palette: (
   'white': #FFF,
+  'accent-gradient': linear-gradient(to bottom, #6943FF, #2F2CE9),
   'white-gradient': linear-gradient($white95, $white95),
-  'red': #FF5555,
   'Dark Navy': #303B59,
   'Light Blue': #CAC9FF,
+  'Red': #FF5555,
+  'Yellow': #FFB21E,
+  'Green': #00BB8F,
+  'Blue': #1125D6,
 );

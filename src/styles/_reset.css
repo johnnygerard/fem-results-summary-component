@@ -57,3 +57,17 @@ pre,
 samp {
   font-family: monospace;
 }
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: block;
+}
+
+button {
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
