@@ -1,14 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { environment } from 'src/environments/environment';
-import { ScoreComponent } from './score/score.component';
-import { FlashSvgComponent } from './svg/flash-svg.component';
 import { ResultComponent } from './result/result.component';
+import { SummaryComponent } from './summary/summary.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, ResultComponent, ScoreComponent, FlashSvgComponent],
+  imports: [CommonModule, ResultComponent, SummaryComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })

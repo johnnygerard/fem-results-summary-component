@@ -1,0 +1,68 @@
+@use 'index' as *;
+
+:host {
+  display: flex;
+  flex-direction: column;
+
+  @include mobile {
+    padding: 24px 30px 30px;
+  }
+
+  @include desktop {
+    padding: 38px 40px 46px;
+  }
+}
+
+.title {
+  font-weight: 700;
+  color: map-get($palette, 'Dark Navy');
+
+  @include mobile {
+    font-size: 18rem;
+    line-height: 23rem;
+  }
+
+  @include desktop {
+    font-size: 24rem;
+    line-height: 31rem;
+  }
+}
+
+.scores {
+  display: flex;
+  flex-direction: column;
+  gap: 16rem;
+
+  @include mobile {
+    margin-top: 24rem;
+  }
+
+  @include desktop {
+    margin-top: 28rem;
+  }
+}
+
+button {
+  background: map-get($palette, 'Dark Navy');
+  border-radius: 1000px; // max radius
+  padding: 16rem 0;
+
+  &:is(:hover, :focus) {
+    background: map-get($palette, 'accent-gradient');
+  }
+  
+  // Typography
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: map-get($palette, 'white');
+
+  @include mobile {
+    margin-top: 24rem;
+
+  }
+
+  @include desktop {
+    margin-top: 40rem;
+  }
+}

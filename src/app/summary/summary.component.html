@@ -1,0 +1,8 @@
+<h1 class="title">Summary</h1>
+<ul class="scores">
+  <li *ngFor="let score of scores">
+    <app-score [class]="score.category.toLowerCase()" [appScore]="score.value"
+        [appCategory]="score.category" />
+  </li>
+</ul>
+<button type="button">Continue</button>

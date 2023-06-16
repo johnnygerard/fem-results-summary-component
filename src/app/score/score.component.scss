@@ -1,15 +1,40 @@
 @use 'index' as *;
 
+@mixin colorize($colorKey) {
+  $color: map-get($palette, $colorKey);
+
+  background: map-get($palette, 'white-gradient'), $color;
+
+  &>.category {
+    color: $color;
+  }
+}
+
 :host {
   display: flex;
   align-items: center;
-  background: map-get($palette, 'white-gradient'), map-get($palette, 'red');
   border-radius: 12px;
   padding: 16rem;
   width: 100%;
 
   @include desktop {
     width: 288rem;
+  }
+
+  &.reaction {
+    @include colorize('Red');
+  }
+
+  &.memory {
+    @include colorize('Yellow');
+  }
+
+  &.verbal {
+    @include colorize('Green');
+  }
+
+  &.visual {
+    @include colorize('Blue');
   }
 }
 
@@ -18,7 +43,6 @@
 
   // Typography
   font-weight: 500;
-  color: map-get($palette, 'red');
 
   @include mobile {
     font-size: 16rem;
