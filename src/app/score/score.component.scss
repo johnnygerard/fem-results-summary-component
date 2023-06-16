@@ -17,13 +17,17 @@
   margin-left: 12rem;
 
   // Typography
-  font-family: Hanken Grotesk;
   font-weight: 500;
-  font-size: 16rem;
   color: map-get($palette, 'red');
+
+  @include mobile {
+    font-size: 16rem;
+    line-height: 21rem;
+  }
 
   @include desktop {
     font-size: 18rem;
+    line-height: 23rem;
   }
 }
 
@@ -31,13 +35,17 @@
   margin-left: auto;
 
   // Typography
-  font-family: Hanken Grotesk;
   font-weight: 700;
-  font-size: 16rem;
   color: map-get($palette, 'Dark Navy');
+
+  @include mobile {
+    font-size: 16rem;
+    line-height: 21rem;
+  }
 
   @include desktop {
     font-size: 18rem;
+    line-height: 23rem;
   }
 
   .denominator {
