@@ -22,6 +22,6 @@ export class SummaryComponent {
     { category: 'Reaction', value: 80 },
     { category: 'Memory', value: 92 },
     { category: 'Verbal', value: 61 },
-    { category: 'Visual', value: 73 },
+    { category: 'Visual', value: 72 },
   ];
 }
